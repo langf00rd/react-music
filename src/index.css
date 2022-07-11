@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: #f1f1f1; */
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.song-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+  padding: 3px 15px;
+  border-radius: 15px;
+  transition: 0.15s linear;
+  background: #fff;
+}
+
+.song-card:hover {
+  background: #fff;
+  transform: scale(1.2);
+  box-shadow: 0 0 8px 0px hsl(240deg 6% 87%);
+}
+
+.active-song-card,
+.active-song-card:hover {
+  background: #f5f9ff;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.App {
+  margin-top: 100px;
+}
+
+main {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 0 11px 0px hsl(240deg 8% 93%);
+  border-radius: 25px;
+  padding: 10px;
+  /* background: #fff; */
+}
+
+.control-icon {
+  box-shadow: 0 0 11px 0px hsla(240, 6%, 87%, 1);
+  width: 45px;
+  height: 45px;
+  border-radius: 9999px;
+  user-select: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.control-icon:active {
+  transform: scale(0.8);
+}
+
+.controls {
+  border-radius: 20px;
+  max-width: 400px;
+  margin: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next-prev-icon {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.more-icon {
+  width: 17px;
+}
+
+.song-title {
+  font-weight: 500;
+  margin-bottom: -13px;
+}
+
+.song-length {
+  font-size: small;
+  opacity: 0.5;
+}
+
+.song-cover {
+  background: #abccff1f;
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+  margin-right: 10px;
+}
