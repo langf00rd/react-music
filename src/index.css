@@ -8,7 +8,6 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: #f1f1f1; */
 }
 
 h1 {
@@ -55,7 +54,6 @@ main {
   box-shadow: 0 0 11px 0px hsl(240deg 8% 93%);
   border-radius: 25px;
   padding: 10px;
-  /* background: #fff; */
 }
 
 .control-icon {

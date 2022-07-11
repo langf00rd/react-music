@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { MusicContext } from "../context";
 import more from "../assets/more.svg";
 

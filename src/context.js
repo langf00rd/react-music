@@ -55,16 +55,6 @@ const MusicProvider = ({ children }) => {
     playSelected(nextSong, id - 1);
   };
 
-  // const previous = () => {
-  // const id = songs.findIndex((value) => value.account === currentSong);
-  // if (id === 0) {
-  //   playOnSelect(songs[songs.length - 1].account);
-  //   setCurrentSong(songs[songs.length - 1].account);
-  //   return;
-  // }
-  // const previousSong = songs[id - 1];
-  // playOnSelect(previousSong.account);
-  // };
   return (
     <MusicContext.Provider
       value={{
